@@ -1,0 +1,28 @@
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+.footer {
+  font-size: 0.6em;
+  overflow: hidden;
+  bottom: 0;
+  width:100%;
+  background-color: rgba(250, 250, 250, 0.6);
+  margin: 44px 0 0 0;
+}
+
+.footer>.flex-container {
+  justify-content: flex-end;
+}
+
+ul {
+  list-style: none;
+}

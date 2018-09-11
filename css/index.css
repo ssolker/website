@@ -1,0 +1,30 @@
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+.home-page {
+  padding:44px 0px 0px 0px;
+  margin: 0px 100px 0px 100px;
+}
+
+#about-img {
+  object-fit: scale-down;
+  max-height: 200px;
+  border-radius: 10px;
+  border:2px solid white;
+  margin: 8px 20px 0px 0px;
+}
+
+body {
+  /* background-image: url("https://images.pexels.com/photos/875858/pexels-photo-875858.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"); */
+  background-image: url("https://images.pexels.com/photos/96622/pexels-photo-96622.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+}
